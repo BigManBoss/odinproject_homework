@@ -1,0 +1,78 @@
+* {
+    font-family: 'Roboto';
+    padding: 0px;
+    margin: 0px;
+}
+.header {
+    background: #1f2837;
+    padding: 30px;
+    display: flex;
+}
+.header_1 {
+    background: #1f2837;
+    padding: 30px;
+    height: auto;
+    display: flex;
+    gap: 15px;
+}
+.header_1 div {
+    flex: 1 1 0%;
+    color: white;
+    font-size: 35px;
+}
+.inline {
+    padding-right: 300px;
+    padding-left: 300px;
+}
+.img-link {
+    height: 50px;
+    flex: 1 1 0%;
+}
+.link {
+    text-decoration: none;
+}
+.logodiv {
+    display: inline-block;
+}
+.logo {
+    color: #f9faf8;
+    font-size: 50px;
+}
+.connections {
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    justify-content: right;
+    gap: 30px;
+}
+.liked-content {
+    display: flex;
+    gap:30px;
+}
+.liked-content h1 {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 20px;
+}
+.info {
+    flex: 1 1 0%;
+    width: 200px;
+    padding-left: 80px;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.copyright {
+    background: #1f2837;
+    color: rgb(159, 159, 161);
+    font-size: 18px;
+    text-align: center;
+}
+.quote {
+    font-size: 50px;
+    background-color: rgba(181, 181, 184, 0.651);
+}
+.info p {
+    width: 200px;
+    text-align: center;
+}
